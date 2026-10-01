@@ -20,6 +20,16 @@
                             <PropertyValue Property="Value" Path="TravelId"/>
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                         </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>agencylayer}"/>
+                            <PropertyValue Property="Value" Path="AgencyId"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Label" String="{@i18n>status}"/>
+                            <PropertyValue Property="Value" Path="Status"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
                     </Collection>
                 </Annotation>
             </Annotations>
